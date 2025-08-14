@@ -39,7 +39,7 @@
 - `git branch --all` -> pull all branches including remote ones that are not downloaded locally
 - `git pull origin <branch name>` -> pull branch of name to current branch
 - `git fetch --all` -> fetches all branches
-- `git fetch origin` -> fetch current branch
+- `git fetch origin` -> Fetch all new branches and commits from the remote
 - `git reset --hard origin/<branch_name>`-> discard all local changes and commits, aligning the branch with its remote
 - `sudo -E git <command/s>` -> preserves user env config when running as sudo
 - `git -c user.name="Your Name" -c user.email="your@email.com" commit -m "Your commit message"` -> oneliner commit wihtout specyfing global user.name and user.email
